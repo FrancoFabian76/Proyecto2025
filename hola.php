@@ -29,15 +29,17 @@ $estAtura = 1.75; // Lo haria mas simple al nombrar la variable, en vez de estAt
 
 $numero = "10"; // El numero no lleva comillas dobles o simples.
 
-Apellido = "Fernandez"; // Es innecesario crear una variable apellido teniendo una de NombreCompleto, tambien tiene el error de no llevar $ para dar inicio a la variable.
+$Apellido = "Fernandez"; // Es innecesario crear una variable apellido teniendo una de NombreCompleto, tambien tiene el error de no llevar $ para dar inicio a la variable.
 
-pais_de_origen = "Uruguay" // No lleva $ al inicio para declarar variable.
+$pais_de_origen = "Uruguay"; // No lleva $ al inicio para declarar variable.
 
-$salario = $2000; // El error que quiza esta mal es el uso de $ en el 2000 ya que si no fuera algo como $dosmil abriria otra variable. No es necesario utilziar $ si ya declaras el numero.
-
-
+$salario = 2000; // El error que quiza esta mal es el uso de $ en el 2000 ya que si no fuera algo como $dosmil abriria otra variable. No es necesario utilziar $ si ya declaras el numero.
 
 
+// Constantes:
+
+define("GRAVEDAD", 9.8);
+const GRAVEDAD = 9.8;
 
 
 
